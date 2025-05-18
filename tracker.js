@@ -120,7 +120,7 @@ function drawChart(deals) {
 }
 
 function saveGame(title) {
-  fetch('/api/save-game', {
+  fetch('/api/save_game', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ title })

@@ -27,7 +27,7 @@ function loadPopularDeals() {
 }
 
 function loadSavedGames() {
-  fetch('/api/saved-games')
+  fetch('/api/saved_games')
     .then(res => res.json())
     .then(games => {
       const section = document.getElementById('saved-games-section');

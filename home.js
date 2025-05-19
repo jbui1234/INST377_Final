@@ -111,4 +111,22 @@ function setupSearch() {
         .catch(err => console.error('Error during search:', err));
     }
   });
+function loadSavedOnHome(){
+  const section=document.getElementById('saved-games-section');
+  const visitorId=localStorage.getItem('visitorId');
+  fetch(`/api/saved_games?visitorId=${visitorId}`)
+    .then(r=>r.json())
+    .then(data=>{
+      if(!data.length){
+        section.innerHTML='<h2>Your Saved Games</h2><p>No saved games yet.</p>';
+      } else {
+        section.innerHTML='<h2>Your Saved Games</h2><ul>'+
+          data.map(g=>`<li>${g.title} (${g.store} - $${parseFloat(g.price).toFixed(2)})</li>`).join('')+
+          '</ul>';
+      }
+    })
+    .catch(console.error);
+}
+document.addEventListener('DOMContentLoaded',()=>{loadSavedOnHome();});
+
 }

@@ -26,7 +26,18 @@ Inserts title, store, price into Supabase saved_games table
 GET /api/saved_games  
 Returns all entries in the Supabase table as JSON  
 Used on the homepage to list saved deals  
+5. Tests
+6. Expectations/Road-Map/Bugs
+- Bugs 
+ - Duplicate game entries are not filtered
+ - No authentication for supabase
+ - Chart may overlap or scale poorly on smaller mobile screens
+ - Cheapshark API does not hold historical data, only the best deal in history
+- Roadmap
+ - Add login system 
+ - Case handling for duplicate saved games
+ - Enable delete/edit functionality for games
+ - Improve mobile responsiveness
+ - Add dynamic user favoriting or wishlist
+ - Be able to visualize historically price data
 
-How to run any tests you have written for your software
-The API for your server application - all GET, POST, PATCH, etc endpoints, and what they each do
-A clear set of expectations around known bugs and a road-map for future development.

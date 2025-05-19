@@ -17,7 +17,7 @@ cd INST377_Final
   - NEXT_PUBLIC_SUPABASE_URL= REPLACE WITH YOUR SUBAPASE URL
   - SUPABASE_SERVICE_ROLE_KEY= REPLACE WITH YOUR SUPABASE KEY
 4. API Endpoints
-POST /api/save_game
+/n POST /api/save_game
 Input: { "title": "Game Name" }
 Action:
 Queries CheapShark API

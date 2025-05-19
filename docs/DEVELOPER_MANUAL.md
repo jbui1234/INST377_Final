@@ -16,7 +16,7 @@ cd INST377_Final
   - Deploy but go to environmental settings and add
   - NEXT_PUBLIC_SUPABASE_URL= REPLACE WITH YOUR SUBAPASE URL
   - SUPABASE_SERVICE_ROLE_KEY= REPLACE WITH YOUR SUPABASE KEY
-4. API Endpoints
+4. API Endpoints  
 POST /api/save_game  
 Input: { "title": "Game Name" }  
 Action:  

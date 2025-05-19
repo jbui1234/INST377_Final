@@ -29,15 +29,15 @@ Used on the homepage to list saved deals
 5. Tests
 6. Expectations/Road-Map/Bugs
 - Bugs 
- - Duplicate game entries are not filtered
- - No authentication for supabase
- - Chart may overlap or scale poorly on smaller mobile screens
- - Cheapshark API does not hold historical data, only the best deal in history
+  - Duplicate game entries are not filtered
+  - No authentication for supabase
+  - Chart may overlap or scale poorly on smaller mobile screens
+  - Cheapshark API does not hold historical data, only the best deal in history
 - Roadmap
- - Add login system 
- - Case handling for duplicate saved games
- - Enable delete/edit functionality for games
- - Improve mobile responsiveness
- - Add dynamic user favoriting or wishlist
- - Be able to visualize historically price data
+  - Add login system 
+  - Case handling for duplicate saved games
+  - Enable delete/edit functionality for games
+  - Improve mobile responsiveness
+  - Add dynamic user favoriting or wishlist
+  - Be able to visualize historically price data
 
